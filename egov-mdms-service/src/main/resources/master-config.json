@@ -540,6 +540,13 @@
         "$.code"
       ]
     },
+    "UsageCategory": {
+      "masterName": "UsageCategoryMajor",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
     "UsageCategoryMajor": {
       "masterName": "UsageCategoryMajor",
       "isStateLevel": true,
@@ -707,7 +714,6 @@
         "$.code"
       ]
     }
-
   },
   "BillingService": {
     "TaxPeriod": {
@@ -745,7 +751,7 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.billingservicecode",
-         "$.taxhead"
+        "$.taxhead"
       ]
     },
     "InstrumentGLcodeMapping": {
