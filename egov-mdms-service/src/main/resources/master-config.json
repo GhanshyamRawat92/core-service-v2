@@ -541,7 +541,7 @@
       ]
     },
     "UsageCategory": {
-      "masterName": "UsageCategoryMajor",
+      "masterName": "UsageCategory",
       "isStateLevel": true,
       "uniqueKeys": [
         "$.code"
